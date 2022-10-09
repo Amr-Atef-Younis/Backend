@@ -1,0 +1,12 @@
+0x02400007  3 amr automate the boring stuff with python.pdf
+0x02800006  2 amr VLC media player
+0x02e00005  0 amr Control | Lec3| Dr. Ahmed Ismail | EECE2021 - YouTube - Google Chrome
+0x0480004c  3 amr pythonProject – main.py
+0x04e0001b  4 amr Vivado 2019.1
+0x02200003 -1 amr @!0,34;BDH
+0x02a00011  5 amr  
+0x0522df70  1 amr Mine
+0x054000f8  1 amr Spotify.sh (F ~/Desktop/Link to Scripts/Mine) - gedit
+0x02e00018  1 amr Ubuntu Manpage: xdotool - command-line X11 automation tool - Google Chrome
+0x0560000a  1 amr amr@amr: ~/Desktop/Link to Scripts/Mine
+0x04400007  5 amr Spotify Free

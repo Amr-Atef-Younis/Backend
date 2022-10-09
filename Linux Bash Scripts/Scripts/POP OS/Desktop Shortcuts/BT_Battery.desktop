@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=/mnt/F/Scripts/Bluetooth/1.png
+Exec=sh "/mnt/F/Scripts/Bluetooth/BT_Battery.sh"
+Name=BT_Battery

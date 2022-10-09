@@ -1,0 +1,10 @@
+
+nosuid,nodev,nofail,x-gvfs-show,uid=1000
+
+systemctl reboot
+
+systemctl suspend
+
+systemctl poweroff
+
+systemctl hibernate

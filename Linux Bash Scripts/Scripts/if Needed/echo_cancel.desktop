@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=/mnt/F/Scripts/MicVolume/Mic.png
+Exec=bash "/mnt/F/Scripts/Noise/echo_cancel.sh"
+Name=echo_cancel

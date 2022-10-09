@@ -1,0 +1,140 @@
+# For the benefit of emacs users: -*- shell-script -*-
+###########################
+# xbindkeys configuration #
+###########################
+#
+# Version: 1.8.7
+#
+# If you edit this file, do not forget to uncomment any lines
+# that you change.
+# The pound(#) symbol may be used anywhere for comments.
+#
+# To specify a key, you can use 'xbindkeys --key' or
+# 'xbindkeys --multikey' and put one of the two lines in this file.
+#
+# The format of a command line is:
+#    "command to start"
+#       associated key
+#
+#
+# A list of keys is in /usr/include/X11/keysym.h and in
+# /usr/include/X11/keysymdef.h
+# The XK_ is not needed.
+#
+# List of modifier:
+#   Release, Control, Shift, Mod1 (Alt), Mod2 (NumLock),
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
+#
+
+# The release modifier is not a standard X modifier, but you can
+# use it if you want to catch release events instead of press events
+
+# By defaults, xbindkeys does not pay attention with the modifiers
+# NumLock, CapsLock and ScrollLock.
+# Uncomment the lines above if you want to pay attention to them.
+
+#keystate_numlock = enable
+#keystate_capslock = enable
+#keystate_scrolllock= enable
+
+# Examples of commands:
+
+
+
+    
+# alt = m:0x30 + c:108
+# ctrl = m:0x90 + c:105
+   
+   
+   
+"python3 /mnt/F/Scripts/Life/Life.py"
+	m:0x30 + c:108 + c:44
+    
+"filelight &"
+    m:0x30 + c:108 + c:39
+    
+"MV.sh &"
+    m:0x30 + c:108 + c:33
+    
+"bash /mnt/F/Scripts/Noise/Noise_c.sh"
+	m:0x90 + c:105 + c:33
+    
+"python3 /mnt/F/Scripts/Vivaldi/Vivaldi.py t"
+    m:0x30 + c:108 + c:54
+    
+"python3 /mnt/F/Scripts/Vivaldi/Vivaldi.py c"
+    m:0x90 + c:105 + c:54
+    
+"python3 /mnt/F/Scripts/VLC/VLC.py n 1 &"
+    m:0x90 + c:105 + c:55
+
+"python3 /mnt/F/Scripts/VLC/VLC.py n 0 &"
+    m:0x30 + c:108 + c:55
+
+"xdotool key 112"
+    b:9
+ 
+"xdotool key 117"
+    b:8
+ 
+"/mnt/F/Scripts/MuteMainMic/Mute.sh"
+    m:0x30 + c:108 + c:58
+    
+"/mnt/F/Scripts/MuteMainMic/UnMute.sh"
+    m:0x90 + c:105 + c:58
+    
+"/mnt/F/Scripts/Memory/memory.sh"
+    m:0x30 + c:108 + c:27
+
+"/mnt/F/Scripts/GPU/GPU.sh"
+    m:0x30 + c:108 + c:42
+
+    
+"bash /mnt/F/Scripts/convenience/convenience.sh"
+    m:0x30 + c:108 + c:43
+
+    
+    
+"/mnt/F/Scripts/Bluetooth/BT_Battery.sh"
+	m:0x30 + c:108 + c:56
+    
+    
+#"python3 /mnt/F/Scripts/Clementine/Clementine.py"    
+#   m:0x30 + c:108
+    
+    
+    
+#"qdbus org.kde.plasmashell /PlasmaShell activateLauncherMenu"
+#    c:133
+
+
+"python3 /mnt/F/Scripts/Temperature/temp.py"
+	m:0x30 + c:108 + c:28
+
+
+# set directly keycode (here control + f with my keyboard)
+#"xterm"
+#  c:41 + m:0x4
+
+# specify a mouse button
+#"xterm"
+#  control + b:2
+
+#"xterm -geom 50x20+20+20"
+#   Shift+Mod2+alt + s
+#
+## set directly keycode (here control+alt+mod2 + f with my keyboard)
+#"xterm"
+#  alt + c:0x29 + m:4 + mod2
+#
+## Control+Shift+a  release event starts rxvt
+#"rxvt"
+#  release+control+shift + a
+#
+## Control + mouse button 2 release event starts rxvt
+#"rxvt"
+#  Control + b:2 + Release
+
+##################################
+# End of xbindkeys configuration #
+##################################

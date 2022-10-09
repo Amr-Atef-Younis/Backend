@@ -1,0 +1,13 @@
+Package id 0:  +41.0°C  (high = +84.0°C, crit = +100.0°C)
+Core 0:        +39.0°C  (high = +84.0°C, crit = +100.0°C)
+Core 1:        +36.0°C  (high = +84.0°C, crit = +100.0°C)
+Core 2:        +36.0°C  (high = +84.0°C, crit = +100.0°C)
+Core 3:        +33.0°C  (high = +84.0°C, crit = +100.0°C)
+
+
+/dev/sda: WDC WD10EZEX-08WN4A0: 38°C
+
+/dev/sdb: WDC WD10EZEX-08WN4A0: 38°C
+
+/dev/sdc: KINGSTON SHSS37A240G: 36°C
+

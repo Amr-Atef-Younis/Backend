@@ -1,0 +1,2 @@
+util		  free		 clock
+1 %	 3566 MiB	 810 MHz

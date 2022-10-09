@@ -1,0 +1,65 @@
+Sink Input #8
+	Driver: protocol-native.c
+	Owner Module: 11
+	Client: 7
+	Sink: 5
+	Sample Specification: float32le 2ch 44100Hz
+	Channel Map: front-left,front-right
+	Format: pcm, format.sample_format = "\"float32le\""  format.rate = "44100"  format.channels = "2"  format.channel_map = "\"front-left,front-right\""
+	Corked: yes
+	Mute: no
+	Volume: front-left: 28138 /  43% / -22.03 dB,   front-right: 28138 /  43% / -22.03 dB
+	        balance 0.00
+	Buffer Latency: 1073424 usec
+	Sink Latency: 55086 usec
+	Resample method: copy
+	Properties:
+		media.role = "music"
+		media.name = "Spotify"
+		application.name = "Spotify"
+		native-protocol.peer = "UNIX socket client"
+		native-protocol.version = "34"
+		application.process.id = "4371"
+		application.process.user = "amr"
+		application.process.host = "amr"
+		application.process.binary = "spotify"
+		application.language = "en_US.UTF-8"
+		window.x11.display = ":0"
+		application.process.machine_id = "d796697bac1ae8b06047e747632849e5"
+		application.process.session_id = "1"
+		application.icon_name = "spotify-client"
+		module-stream-restore.id = "sink-input-by-media-role:music"
+
+Sink Input #13
+	Driver: protocol-native.c
+	Owner Module: 11
+	Client: 94
+	Sink: 5
+	Sample Specification: s16le 2ch 44100Hz
+	Channel Map: front-left,front-right
+	Format: pcm, format.sample_format = "\"s16le\""  format.channels = "2"  format.rate = "44100"  format.channel_map = "\"front-left,front-right\""
+	Corked: no
+	Mute: no
+	Volume: front-left: 18298 /  28% / -33.24 dB,   front-right: 18298 /  28% / -33.24 dB
+	        balance 0.00
+	Buffer Latency: 60408 usec
+	Sink Latency: 89939 usec
+	Resample method: n/a
+	Properties:
+		media.name = "Daughtry - Crawling Back to You"
+		application.name = "Clementine"
+		native-protocol.peer = "UNIX socket client"
+		native-protocol.version = "34"
+		media.role = "music"
+		application.process.id = "4372"
+		application.process.user = "amr"
+		application.process.host = "amr"
+		application.process.binary = "clementine"
+		application.language = "en_US.UTF-8"
+		window.x11.display = ":0"
+		application.process.machine_id = "d796697bac1ae8b06047e747632849e5"
+		application.process.session_id = "1"
+		application.icon_name = "clementine"
+		module-stream-restore.id = "sink-input-by-media-role:music"
+		media.filename = "www.fadefm.com"
+		media.title = "Daughtry - Crawling Back to You"

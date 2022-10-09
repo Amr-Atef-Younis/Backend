@@ -1,0 +1,14 @@
+sudo lsof | grep deleted
+sudo kill -9 <pid>
+
+ lsof +L1 | grep 'deleted' | awk '{print $2}' | xargs kill -9
+ 
+ 
+ pulseaudio --start
+
+
+sudo truncate -s 0 /var/log/syslog
+
+systemctl restart rsyslog
+
+systemctl stop syslog.socket rsyslog.service
