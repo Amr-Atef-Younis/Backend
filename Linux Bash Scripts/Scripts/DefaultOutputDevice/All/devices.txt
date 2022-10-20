@@ -1,0 +1,2 @@
+9	alsa_output.usb-GeneralPlus_USB_Audio_Device-00.iec958-stereo	module-alsa-card.c	s16le 2ch 44100Hz	RUNNING
+11	alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1	module-alsa-card.c	s16le 2ch 44100Hz	SUSPENDED
