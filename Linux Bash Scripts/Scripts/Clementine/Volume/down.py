@@ -25,11 +25,11 @@ if index != 200:
     a_file = open("/mnt/F/Scripts/Clementine/Volume/text2.txt")
     lines = a_file.readlines()
     findex = ""
-    data = lines[index].split()
-    for i in data[2]:
-        if i != '#':
-            findex = findex + i
+    data = lines[index].splitlines()[0]
+    data = data.split('#')[1]
     a_file.close()
 
-    os.system("pactl set-sink-input-volume " + findex +  " -1%")
-    a_file.close()
+    finalcomm = "pactl set-sink-input-volume " + data +  " -2%"
+    # print(finalcomm)
+    os.system(finalcomm)
+    # a_file.close()

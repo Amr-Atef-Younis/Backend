@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 100
+sleep 2m
 
 while true;
 do
@@ -12,7 +12,7 @@ ls > /mnt/F/Scripts/CopyImages/P.txt
 tr ' ' '\n' < /mnt/F/Scripts/CopyImages/S.txt > /mnt/F/Scripts/CopyImages/Sm.txt
 tr ' ' '\n' < /mnt/F/Scripts/CopyImages/P.txt > /mnt/F/Scripts/CopyImages/Pm.txt
 
-sleep 600
+sleep 10m
 
 diff  /mnt/F/Scripts/CopyImages/Sm.txt /mnt/F/Scripts/CopyImages/Pm.txt > /mnt/F/Scripts/CopyImages/Diff.txt
 

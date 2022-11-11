@@ -1,19 +1,25 @@
 #!/bin/bash
 source ~/.profile
 
-speedtest --secure > "/mnt/F/Scripts/TestInternetSpeed/text1.txt"
+x="/mnt/F/Scripts/TestInternetSpeed/text1.txt"
+y="/mnt/F/Scripts/TestInternetSpeed/output.txt"
 
-egrep "Download" "/mnt/F/Scripts/TestInternetSpeed/text1.txt" > "/mnt/F/Scripts/TestInternetSpeed/output.txt"
+speedtest --secure > $x
 
-egrep "Upload" "/mnt/F/Scripts/TestInternetSpeed/text1.txt" >> "/mnt/F/Scripts/TestInternetSpeed/output.txt"
+egrep "Download" $x > $y
 
-check=$(sed '1,3!d' "/mnt/F/Scripts/TestInternetSpeed/output.txt")
+# echo "" >> $x
+
+egrep "Upload" $x >> $y
+
+# check=$(sed '1,3!d' $x)
+# check=$(cat $y | head -n 2)
 
 
-gxmessage -geometry 950x130-560-540 -sticky -borderless -ontop -title "Internet Speed" -fn "serif italic 30" $check
+# gxmessage -geometry 950x130-560-540 -sticky -borderless -ontop -title "Internet Speed" -fn "serif italic 30" $check
 
-# -geometry 240x120-960-540
 
-# -file /mnt/F/Scripts/TestInternetSpeed/output.txt
 
-# kate "/mnt/F/Scripts/TestInternetSpeed/output.txt"
+
+gxmessage -geometry 520x180-560-540 -sticky -noescape -borderless -ontop -wrap -title "Internet Speed" -fn "serif italic 30" -file $y
+

@@ -1,2 +1,1 @@
 		application.name = "Spotify"
-		application.name = "Clementine"
