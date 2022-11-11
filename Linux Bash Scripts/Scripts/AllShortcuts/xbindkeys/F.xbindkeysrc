@@ -1,0 +1,191 @@
+    
+# alt = m:0x30 + c:108
+# ctrl = m:0x90 + c:105
+   
+############################################################################################################
+
+
+   
+#### Volumes
+
+
+## Spotify
+
+"python3 /mnt/F/Scripts/Spotify_Volume/up.py"
+	m:0x90 + c:105 + c:85
+   
+"python3 /mnt/F/Scripts/Spotify_Volume/down.py"
+	m:0x90 + c:105 + c:83
+
+
+## Clementine
+"python3 /mnt/F/Scripts/Clementine/Volume/up.py"
+	m:0x90 + c:105 + c:89
+	
+"python3 /mnt/F/Scripts/Clementine/Volume/down.py"
+	m:0x90 + c:105 + c:87
+	
+############################################################################################################
+
+
+    
+#### Mic
+
+
+## MicVolume
+"MV.sh &"
+    m:0x30 + c:108 + c:33
+
+## Mic Noise
+"bash /mnt/F/Scripts/Noise/Noise_c.sh"
+	m:0x90 + c:105 + c:33
+	
+"/mnt/F/Scripts/MuteMainMic/Mute.sh"
+    m:0x30 + c:108 + c:58
+    
+"/mnt/F/Scripts/MuteMainMic/UnMute.sh"
+    m:0x90 + c:105 + c:58
+   
+	
+############################################################################################################
+
+
+
+#### Vivaldi
+
+
+## College Mail
+"python3 /mnt/F/Scripts/Vivaldi/Vivaldi.py c"
+    m:0x30 + c:108 + c:54
+    
+## Extra/Theraputic Mail
+"python3 /mnt/F/Scripts/Vivaldi/Vivaldi.py e"
+   m:0x90 + c:105 + c:54
+   
+   
+## Volume
+
+# UP
+"python /mnt/F/Scripts/Vivaldi/Volume/vol.py +"
+	m:0x90 + c:105 + c:81
+
+# Down
+"python /mnt/F/Scripts/Vivaldi/Volume/vol.py -"
+	m:0x90 + c:105 + c:79
+	
+	
+############################################################################################################
+
+
+
+#### VLC
+
+
+"python3 /mnt/F/Scripts/Link/Link.py"
+	m:0x90 + c:105 + c:46
+	
+#"python3 /mnt/F/Scripts/VLC/VLC.py n 1 &"
+#    m:0x90 + c:105 + c:55
+
+#"python3 /mnt/F/Scripts/VLC/VLC.py n 0 &"
+#    m:0x30 + c:108 + c:55
+
+    
+## Volume
+
+# UP
+"python /mnt/F/Scripts/VLC/Volume/vol.py +"
+	m:0x90 + c:105 + c:86
+
+# Down
+"python /mnt/F/Scripts/VLC/Volume/vol.py -"
+	m:0x90 + c:105 + c:82
+	
+	
+############################################################################################################
+
+
+
+#### Mouse buttons
+
+	
+## Extra Mouse buttons
+
+
+"xdotool key 112"
+    b:9
+ 
+"xdotool key 117"
+    b:8
+
+    
+############################################################################################################
+    
+
+
+#### Resources Check
+
+
+"/mnt/F/Scripts/Memory/memory.sh"
+    m:0x30 + c:108 + c:27
+
+"/mnt/F/Scripts/GPU/GPU.sh"
+    m:0x30 + c:108 + c:42
+
+"python3 /mnt/F/Scripts/Temperature/temp.py"
+	m:0x30 + c:108 + c:28
+	
+"filelight &"
+    m:0x30 + c:108 + c:39
+
+	
+############################################################################################################	
+
+
+
+#### DefaultOutputDevice
+
+
+#"python3 /mnt/F/Scripts/DefaultOutputDevice/All/all.py 1"
+#	m:0x14 + c:37 + c:10
+
+#"python3 /mnt/F/Scripts/DefaultOutputDevice/All/all.py 3"
+#	m:0x14 + c:37 + c:11
+
+#"python3 /mnt/F/Scripts/DefaultOutputDevice/All/all.py 2"
+#	m:0x14 + c:37 + c:12
+
+
+############################################################################################################	
+#### Misc
+
+
+"bash /mnt/F/Scripts/convenience/convenience.sh"
+    m:0x30 + c:108 + c:43
+
+    
+## Restart Spotify
+"/mnt/F/Scripts/Spotify/adjusted/rest.sh"
+	m:0x90 + c:105 + c:39
+
+
+## Youtube Download
+"python3 /mnt/F/Essential4Me/Command.py"
+	m:0x90 + c:105 + c:29
+   
+   
+"/mnt/F/Scripts/Terminate/kill.sh"
+	m:0x90 + c:105 + c:28
+   
+   
+    
+
+    
+############################################################################################################	
+
+
+#### End of Configuration File
+
+
+# alt = m:0x30 + c:108
+# ctrl = m:0x90 + c:105

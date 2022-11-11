@@ -1,0 +1,64 @@
+Sink Input #8
+	Driver: protocol-native.c
+	Owner Module: 11
+	Client: 17
+	Sink: 1
+	Sample Specification: float32le 2ch 48000Hz
+	Channel Map: front-left,front-right
+	Format: pcm, format.rate = "48000"  format.sample_format = "\"float32le\""  format.channels = "2"  format.channel_map = "\"front-left,front-right\""
+	Corked: yes
+	Mute: no
+	Volume: front-left: 26214 /  40% / -23.88 dB,   front-right: 26214 /  40% / -23.88 dB
+	        balance 0.00
+	Buffer Latency: 1202750 usec
+	Sink Latency: 23218 usec
+	Resample method: speex-float-1
+	Properties:
+		media.role = "video"
+		media.name = "audio stream"
+		application.name = "VLC media player (LibVLC 3.0.17.4)"
+		native-protocol.peer = "UNIX socket client"
+		native-protocol.version = "34"
+		application.id = "org.VideoLAN.VLC"
+		application.version = "3.0.17.4"
+		application.icon_name = "vlc"
+		application.language = "en_US.UTF-8"
+		application.process.id = "156250"
+		application.process.user = "amr"
+		application.process.host = "amr"
+		application.process.binary = "vlc"
+		window.x11.display = ":0"
+		application.process.machine_id = "d796697bac1ae8b06047e747632849e5"
+		application.process.session_id = "1"
+		module-stream-restore.id = "sink-input-by-media-role:video"
+
+Sink Input #16
+	Driver: protocol-native.c
+	Owner Module: 11
+	Client: 47
+	Sink: 1
+	Sample Specification: float32le 2ch 44100Hz
+	Channel Map: front-left,front-right
+	Format: pcm, format.sample_format = "\"float32le\""  format.rate = "44100"  format.channels = "2"  format.channel_map = "\"front-left,front-right\""
+	Corked: no
+	Mute: no
+	Volume: front-left: 51698 /  79% / -6.18 dB,   front-right: 51698 /  79% / -6.18 dB
+	        balance 0.00
+	Buffer Latency: 53877 usec
+	Sink Latency: 23047 usec
+	Resample method: copy
+	Properties:
+		application.icon_name = "chromium-browser"
+		media.name = "Playback"
+		application.name = "Chromium"
+		native-protocol.peer = "UNIX socket client"
+		native-protocol.version = "34"
+		application.process.id = "158239"
+		application.process.user = "amr"
+		application.process.host = "amr"
+		application.process.binary = "vivaldi-bin"
+		application.language = "en_US.UTF-8"
+		window.x11.display = ":0"
+		application.process.machine_id = "d796697bac1ae8b06047e747632849e5"
+		application.process.session_id = "1"
+		module-stream-restore.id = "sink-input-by-application-name:Chromium"

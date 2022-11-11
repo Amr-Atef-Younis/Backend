@@ -1,0 +1,2 @@
+		application.process.binary = "vlc"
+		application.process.binary = "vivaldi-bin"
