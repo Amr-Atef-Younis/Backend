@@ -1,1 +1,0 @@
-sudo efibootmgr -b 000C -B

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Icon=
-Exec=bash "/mnt/F/GP/PanoplyJ-4.12.5/PanoplyJ/panoply.sh"
-Name=Panoply
