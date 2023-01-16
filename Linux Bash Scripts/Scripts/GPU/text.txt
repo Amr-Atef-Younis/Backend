@@ -1,2 +1,2 @@
 util		  free		 clock
-0 %	 3652 MiB	 405 MHz
+39 %	 3388 MiB	 405 MHz

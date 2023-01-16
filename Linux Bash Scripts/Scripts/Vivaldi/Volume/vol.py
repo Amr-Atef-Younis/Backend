@@ -34,5 +34,6 @@ if index != 200:
             findex = findex + i
     a_file.close()
 
+    print("pactl set-sink-input-volume " + findex +  " " + p + "3%")
     os.system("pactl set-sink-input-volume " + findex +  " " + p + "3%")
     a_file.close()

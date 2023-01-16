@@ -1,43 +1,37 @@
 #!/bin/bash
 
 
+sleep 6
 
-# 5+15+4+1+1+1 = 22
-
-
-sleep 5
+# deadd-notification-center &
 
 
-caprine & clementine -v 100 &
-sleep 3
+caprine &
+clementine -v 100 &
 
 
-
-"/opt/Notion Enhanced/notion-app-enhanced" & env LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify & thunderbird &
-sleep 3
+"/opt/Notion Enhanced/notion-app-enhanced" & 
 
 
+env LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify &
+# thunderbird &
 
-rambox & /opt/xdman/xdman &
-sleep 2
+rambox &
 
-# vivaldi-stable --profile-directory="Profile 2" --new-window "https://www.linkedin.com/jobs/" &
+/opt/xdman/xdman &
 
-sleep 2
-wmctrl -c XDM
+
+sleep 13
+
+sleep 1
+xdotool key alt+s
 xdotool key alt+q
-
-sleep 2
-xdotool key alt+g
 xdotool key alt+m
 
-sleep 1
-xdotool key alt+n
-xdotool key alt+s
-
-
-sleep 1
+sleep 2
 xdotool key alt+w
+xdotool key alt+x
+xdotool key alt+n
 
-
-
+sleep 6
+xdotool key Super+c

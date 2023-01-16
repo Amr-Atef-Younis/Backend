@@ -6,7 +6,7 @@ check=$(pactl list sources | grep "ModifiedMic")
 in=""
 in=$(zenity --entry --entry-text="Activate Noise Removal" --text="Activate Noise Removal")
 
-if [ "$in" == "Activate Noise Removal" ]
+if [ "$in" = "Activate Noise Removal" ];
 then
 ww=$(pactl unload-module module-echo-cancel)
 
@@ -16,7 +16,9 @@ sleep 0.1
 pacmd set-default-source ModifiedMic
 sleep 0.1
 pacmd update-source-proplist ModifiedMic device.description=ModifiedMic
-pacmd set-source-volume ModifiedMic 57000
+# pacmd set-source-volume ModifiedMic 57000
+
+/mnt/F/Scripts/MicVolume/MicVolume.sh 0 &
 
 else
 pactl unload-module module-echo-cancel

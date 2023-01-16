@@ -15,5 +15,5 @@ then
 xbindkeys &
 else
 in=$(zenity --entry --entry-text=$in --text="Name of the app to launch")
-$in &
+"/usr/bin/"$in &
 fi

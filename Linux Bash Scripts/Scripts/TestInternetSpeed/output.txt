@@ -1,2 +1,2 @@
-Download: 37.81 Mbit/s
-Upload: 4.79 Mbit/s
+Download: 37.74 Mbit/s
+Upload: 5.47 Mbit/s

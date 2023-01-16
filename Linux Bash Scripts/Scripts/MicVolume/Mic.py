@@ -1,21 +1,38 @@
 import os
+import sys
+import subprocess
 
-path = '/mnt/F/Scripts/MicVolume/on.txt'
-os.system('pgrep -u amr MicVolume.sh > /mnt/F/Scripts/MicVolume/on.txt')
+encoding = 'utf-8'
 
-on = ''
 
-comm2 = '/mnt/F/Scripts/MicVolume/MicVolume.sh &'
+# path = '/mnt/F/Scripts/MicVolume/on.txt'
+# os.system('pgrep -u amr MicVolume.sh > /mnt/F/Scripts/MicVolume/on.txt')
 
-with open(path, 'r') as f:
-    y = f.readlines()
+basiccomm = 'pgrep -u amr MicVolume.sh'
 
 try:
-    on = y[0].split('\n')[0]
+    pg = subprocess.check_output(basiccomm, shell=True)
+    print(pg)
 except:
-    pass
-if on != '':
-    comm = 'kill -9 ' + str(on)
+    pg = ''
+
+
+
+comm2 = 'bash /mnt/F/Scripts/MicVolume/MicVolume.sh &'
+
+
+
+
+
+# with open(path, 'r') as f:
+#     y = f.readlines()
+
+# try:
+#     on = y[0].split('\n')[0]
+# except:
+#     pass
+if pg != '':
+    comm = 'kill -9 ' + str(pg)
     os.system(comm)
 
 os.system(comm2)

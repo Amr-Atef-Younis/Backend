@@ -1,2 +1,2 @@
-Sink Input #8
-Sink Input #16
+Sink Input #3
+Sink Input #32

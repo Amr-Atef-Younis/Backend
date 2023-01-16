@@ -1,17 +1,17 @@
-Sink Input #1
+Sink Input #5
 	Driver: protocol-native.c
-	Owner Module: 11
+	Owner Module: 12
 	Client: 7
-	Sink: 6
+	Sink: 1
 	Sample Specification: float32le 2ch 44100Hz
 	Channel Map: front-left,front-right
 	Format: pcm, format.sample_format = "\"float32le\""  format.rate = "44100"  format.channels = "2"  format.channel_map = "\"front-left,front-right\""
 	Corked: no
 	Mute: no
-	Volume: front-left: 30102 /  46% / -20.27 dB,   front-right: 30102 /  46% / -20.27 dB
+	Volume: front-left: 17661 /  27% / -34.17 dB,   front-right: 17661 /  27% / -34.17 dB
 	        balance 0.00
-	Buffer Latency: 1018820 usec
-	Sink Latency: 753466 usec
+	Buffer Latency: 1004512 usec
+	Sink Latency: 783323 usec
 	Resample method: copy
 	Properties:
 		media.role = "music"
@@ -19,7 +19,7 @@ Sink Input #1
 		application.name = "Spotify"
 		native-protocol.peer = "UNIX socket client"
 		native-protocol.version = "34"
-		application.process.id = "4635"
+		application.process.id = "5058"
 		application.process.user = "amr"
 		application.process.host = "amr"
 		application.process.binary = "spotify"

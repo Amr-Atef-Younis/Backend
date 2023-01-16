@@ -1,8 +1,8 @@
 BootCurrent: 0000
 Timeout: 1 seconds
-BootOrder: 0000,000D,000E,0008,0001
+BootOrder: 0000,0012,0008,0013,0001
 Boot0000* MX21.2
 Boot0001* Windows Boot Manager
-Boot0008  Hard Drive
-Boot000D* Windows Boot Manager
-Boot000E* UEFI OS
+Boot0008* Hard Drive
+Boot0012* Windows Boot Manager
+Boot0013* UEFI OS

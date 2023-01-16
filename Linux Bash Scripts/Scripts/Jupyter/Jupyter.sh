@@ -1,3 +1,3 @@
 #!/bin/bash
-killall jupyter-notebook
+source ~/anaconda3/bin/activate
 jupyter-notebook &
