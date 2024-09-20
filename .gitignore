@@ -1,0 +1,8 @@
+"Google Calendar/"
+"Connections/"
+"Validate business Compensations/"
+*.csv
+*.html
+*.txt
+*.json
+node_modules/
