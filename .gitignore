@@ -7,3 +7,4 @@ Validate business Compensations/
 *.json
 node_modules/
 *.xlsx
+AllShortcuts/
