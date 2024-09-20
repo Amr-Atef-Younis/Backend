@@ -1,1 +1,0 @@
-yt-dlp -f 22 https://www.youtube.com/watch?v=HXV3zeQKqGY&t=14s -o /mnt/F/Machine Learning/Courses/Courses/SQL/%(title)s.%(ext)s

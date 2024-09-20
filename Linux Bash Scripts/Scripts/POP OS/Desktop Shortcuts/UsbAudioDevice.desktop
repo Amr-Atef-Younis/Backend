@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Icon=/mnt/F/Scripts/Default Output Device/Usb.png
-Exec=sh "/mnt/F/Scripts/df/UsbAudioDevice.sh"
-Name=UsbAudioDevice

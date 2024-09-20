@@ -1,2 +1,0 @@
-sudo ntfsfix /dev/sda7
-sudo mount /dev/sdb4 /mnt/E

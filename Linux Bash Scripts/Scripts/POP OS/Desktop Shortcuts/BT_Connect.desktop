@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Icon=/mnt/F/Scripts/Bluetooth/1.png
-Exec=sh "/mnt/F/Scripts/Bluetooth/Bluetooth.sh"
-Name=BT_Connect

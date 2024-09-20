@@ -1,2 +1,0 @@
-7	3	18	protocol-native.c	float32le 2ch 44100Hz
-9	3	7	protocol-native.c	float32le 2ch 44100Hz

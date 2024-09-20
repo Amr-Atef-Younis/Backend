@@ -1,1 +1,0 @@
-Try `sensors -h' for more information
