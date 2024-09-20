@@ -8,3 +8,11 @@ Validate business Compensations/
 node_modules/
 *.xlsx
 AllShortcuts/
+*.png
+*.jpg
+/mnt/F/Scripts/Rambox/Themes
+qbittorrent.qbtheme
+.ssh/
+convenience/
+.xbindkeysrc
+-/Postman Agent/app/postman-agent
