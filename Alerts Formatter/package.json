@@ -1,0 +1,22 @@
+{
+  "name": "back_end_netly",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/e9f165ee-578e-4d47-b2f9-27d34d45a6ea/deploy-status)](https://app.netlify.com/sites/netlify-backend/deploys)",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "netlify": "^13.2.0",
+    "netlify-cli": "^17.38.1",
+    "serverless-http": "^2.7.0"
+  }
+}

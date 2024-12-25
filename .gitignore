@@ -1,0 +1,8 @@
+**/secrets.js
+**/package-lock.json
+**/node_modules
+
+# Local Netlify folder
+**/.netlify
+
+
