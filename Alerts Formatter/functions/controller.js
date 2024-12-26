@@ -66,7 +66,9 @@ class AlertsFormatter{
 
         const incidentColor = state === ALERT_STATES.OPEN ? "#ff0000" : "#36a64f";
 
-        const labelString = Object.entries(labels)
+        const sortedLabels = _.omit(labels, ['insertId', 'log'])
+
+        const labelString = Object.entries(sortedLabels)
             .map(([key, value]) => {
                 return `*${key}*:\t_${value}_`; // Indented format for
             })
