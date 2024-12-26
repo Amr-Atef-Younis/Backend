@@ -14,16 +14,16 @@ class AlertsFormatter{
         const labelString = Object.entries(sortedLabels)
             .map(([key, value]) => {
                 if (key === "queryExecuted") {
-                    return `*${key}*:\t\`\`\`${value}\`\`\``; // Indented code block for "queryExecuted"
+                    return `*${key}*:\t\`\`\`${value}\`\`\``;
                 }
-                return `*${key}*:\t_${value}_`; // Indented format for
+                return `*${key}*:\t_${value}_`;
             })
             .join("\n");
 
 
         const blocks = _.cloneDeep(mainBlocks);
 
-        const insertId = labels['insertId'];
+        const insertId = encodeURIComponent(labels['insertId']);
         const cloudUrl = `https://console.cloud.google.com/logs/query;query=insertId%3D%22${insertId}%22?project=bosta-new-infrastructure`
 
         blocks.push(
@@ -70,7 +70,7 @@ class AlertsFormatter{
 
         const labelString = Object.entries(sortedLabels)
             .map(([key, value]) => {
-                return `*${key}*:\t_${value}_`; // Indented format for
+                return `*${key}*:\t_${value}_`;
             })
             .join("\n");
 
