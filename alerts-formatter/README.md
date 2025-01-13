@@ -63,7 +63,7 @@ The application processes alerts sent from GCP monitoring and applies policy-spe
 - Enriches messages with log links and policy-specific formatting.
 - Sends the final formatted message to Slack using helper methods.
 
-## Example Slack Message
+## Example Slack Message before and after applying format:
 
 
-![A sample formatted alert sent to Slack](./result.png)
+![Before and after applying format](./result.png)
